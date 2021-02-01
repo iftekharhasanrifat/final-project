@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container mb-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Loan Consultancy System</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">Loan</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Personal Loan</a></li>
+                                <li><a class="dropdown-item" href="#">Home Loan</a></li>
+                                <li><a class="dropdown-item" href="#">Car Loan</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">Deposit</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">DPS</a></li>
+                                <li><a class="dropdown-item" href="#">Fixed Deposit</a></li>
+                                <li><a class="dropdown-item" href="#">Monthly Benefit</a></li>
+                                <li><a class="dropdown-item" href="#">Saving Account</a></li>
+                                <li><a class="dropdown-item" href="#">Double Money</a></li>
+                                <li><a class="dropdown-item" href="#">Triple Money</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">Credit Card</a>
+                            <ul class="dropdown-menu mr-1">
+                                <li><a class="dropdown-item" href="#">Compare Rate</a></li>
+                                <li><a class="dropdown-item" href="#">Check Eligibility</a></li>
+                            </ul>
+                        </li>
+                        <a class="nav-link " aria-current="page" href="signUp.html">Sign In</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section id="sign-up" class="container"> <!--sign up form-->
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="name" class="form-label">Name</label>
+              <div class="input-group">
+                <div class="input-group-text">@</div>
+                <input type="text" class="form-control" id="name" placeholder="Username">
+              </div>
+              <!-- <input type="email" class="form-control" id="inputEmail4"> -->
+            </div>
+            <div class="col-md-6">
+              <label for="phone-no" class="form-label">Phone No.</label>
+              <div class="input-group">
+                <div class="input-group-text">@</div>
+                <input type="text" class="form-control" id="phone-no" placeholder="Phone No.">
+              </div>
+              <!-- <input type="password" class="form-control" id="inputPassword4"> -->
+            </div>
+            <div class="col-12">
+              <label for="email" class="form-label">Email</label>
+              <div class="input-group">
+                <div class="input-group-text">@</div>
+                <input type="email" class="form-control" id="email" placeholder="Email">
+              </div>
+              <!-- <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St"> -->
+            </div>
+            <div class="col-6">
+              <label for="password" class="form-label">Password</label>
+              <div class="input-group">
+                <div class="input-group-text">@</div>
+                <input type="password" class="form-control" id="password" placeholder="Password">
+              </div>
+            </div>
+            <div class="col-6">
+                <label for="confirm-password" class="form-label">Confirm Password</label>
+                <div class="input-group">
+                    <div class="input-group-text">@</div>
+                    <input type="password" class="form-control" id="confirm-password" placeholder="Confirm Password">
+                  </div>
+              </div>
+            <div class="col-md-6">
+              <label for="select-profession" class="form-label">Select Profession</label>
+              <select id="select-profession" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+                <label for="monthly-income" class="form-label">Monthly Income</label>
+                <div class="input-group">
+                    <div class="input-group-text">@</div>
+                    <input type="text" class="form-control" id="monthly-income" placeholder="Monthly Income">
+                  </div>
+              </div>
+            <!-- <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div> -->
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign up</button>
+            </div>
+          </form>
+          <h5 class="text-center">Already have an account ,<a href="">sign in</a></h5>
+        
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

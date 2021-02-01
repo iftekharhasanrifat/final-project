@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--nav bar-->
+    <section class="container mb-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Loan Consultancy System</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">Loan</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Personal Loan</a></li>
+                                <li><a class="dropdown-item" href="#">Home Loan</a></li>
+                                <li><a class="dropdown-item" href="#">Car Loan</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">Deposit</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">DPS</a></li>
+                                <li><a class="dropdown-item" href="#">Fixed Deposit</a></li>
+                                <li><a class="dropdown-item" href="#">Monthly Benefit</a></li>
+                                <li><a class="dropdown-item" href="#">Saving Account</a></li>
+                                <li><a class="dropdown-item" href="#">Double Money</a></li>
+                                <li><a class="dropdown-item" href="#">Triple Money</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">Credit Card</a>
+                            <ul class="dropdown-menu mr-1">
+                                <li><a class="dropdown-item" href="#">Compare Rate</a></li>
+                                <li><a class="dropdown-item" href="#">Check Eligibility</a></li>
+                            </ul>
+                        </li>
+                        <a class="nav-link " aria-current="page" href="#">Sign In</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section class="top-banner container">
+        <div class="row full-width">
+            <div class="col">
+                <h1 class="font-weight-light pb-5 fz-65 text-center">Compare Rates, Check Eligibility & Apply</h1>
+            </div>
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide mt-5" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/Personal-Loan1.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/home.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/rsz_speedtail_3.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2 class="text-center mt-5">Discover Your Financial Options</h2>
+        <section id="about-us" class="mb-5">
+            <!--about us section-->
+            <div class="container">
+                <div class="row d-flex align-items-center flex-column-reverse flex-md-row">
+                    <div class="col-md-6">
+                        <div class="logo-card card mb-3">
+                            <div class="row g-0">
+                                <div class="align-items-center col-md-4 d-flex justify-content-center text-center">
+                                    <img src="logo/rsz_experience.png" style="max-width:100px" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Experience</h5>
+                                        <p class="card-text">We have experience to serve more than 40k customer.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="logo-card card mb-3">
+                            <div class="row g-0">
+                                <div class="align-items-center col-md-4 d-flex justify-content-center text-center">
+                                    <img src="logo/reliability.png" style="max-width:100px" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Reliability</h5>
+                                        <p class="card-text">We strictly follow our partner banks guideline.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="logo-card card mb-3">
+                            <div class="row g-0">
+                                <div class="align-items-center col-md-4 d-flex justify-content-center text-center">
+                                    <img src="logo/rsz_speedmeter.png" style="max-width:100px" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Fastest & Hassle Free</h5>
+                                        <p class="card-text">Get loan or credit card in a faster way.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-5">
+                        <img src="logo/XMLID 1.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
