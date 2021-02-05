@@ -4,15 +4,36 @@
 #sign-up a{
     text-decoration: none;
 }
+#sign-in a{
+    text-decoration: none;
+}
 .fz-65{
     font-size:65px;
     
+}
+#dps{
+    float: left;
+    margin-left:1em;
+    width: 20%;
+    float:left;
+}
+#content{
+    float: left;
+    /* margin-left:1em; */
+    width: 80%;
+    float:left;
+}
+.contents{
+    border: 1px solid lightgray;
+    padding: 1em;
+    border-radius: 1em;
 }
 @media (min-width: 768px) and (max-width: 991px){
     .top-banner h1 {
         font-size: 36px!important;
         padding-bottom: 10px!important;
     }
+    
 }
 @media (min-width: 992px){
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -22,7 +43,37 @@
     /* #carouselExampleCaptions img{
         height: 300px;
     } */
+    #sign-in,#personal-loan,#home-loan{
+        margin: 200px;
+    }
+    /* #personal-loan{
+        margin:200px;
+    }
+     */
+     #dps{
+        float: left;
+        margin-left:1em;
+        width: 20%;
+        float:left;
+    }
+    #content{
+        float: left;
+        /* margin-left:1em; */
+        width: 80%;
+        float:left;
+    }
+    #search-bar{
+        margin-left: 10em;
+    }
+    #search-btn{
+        margin-left:10em;
+    }
 }
+@media only screen and (max-width: 768px) {
+    #dps,#content {
+        width: 100%;
+      }
+  }
 .logo-card {
     border:none;
     border-radius: 1em;
@@ -32,3 +83,9 @@
     padding-right: 2.5rem;
     padding-left: .5rem;
 } */
+
+@media (max-width: 600px) {
+    #dps,#content {
+        width: 100%;
+      }
+  }

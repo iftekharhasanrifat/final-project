@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In</title>
+    <title>Home Loan</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
 </head>
+
 <body>
     <section class="container mb-5">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -35,7 +37,7 @@
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                                 aria-expanded="false">Deposit</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="dps.html">DPS</a></li>
+                                <li><a class="dropdown-item" href="#">DPS</a></li>
                                 <li><a class="dropdown-item" href="#">Fixed Deposit</a></li>
                                 <li><a class="dropdown-item" href="#">Monthly Benefit</a></li>
                                 <li><a class="dropdown-item" href="#">Saving Account</a></li>
@@ -51,7 +53,7 @@
                                 <li><a class="dropdown-item" href="#">Check Eligibility</a></li>
                             </ul>
                         </li>
-                        <a class="nav-link " aria-current="page" href="signUp.html">Sign Up</a>
+                        <a class="nav-link " aria-current="page" href="signIn.html">Sign In</a>
                     </div>
                 </div>
             </div>
@@ -59,39 +61,45 @@
     </section>
 
     <section class="container">
-        <form id="sign-in" class="row g-3">
-            <div class="col-md-12">
-                <label for="name" class="form-label">Name</label>
-                <div class="input-group">
-                  <div class="input-group-text"><i class="fas fa-user"></i></div>
-                  <input type="text" class="form-control" id="name" placeholder="Username">
+        <form id="home-loan" class="row g-3">
+            <h1 class="text-center">We help you to get Home Loan Easily</h1>
+            <div class="mt-5 row">
+                <div class="col-md-4">
+                    <label for="select-profession" class="form-label">Select Profession</label>
+                    <select id="select-profession" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
                 </div>
-                <!-- <input type="email" class="form-control" id="inputEmail4"> -->
-              </div>
-              <div class="col-12">
-                <label for="password" class="form-label">Password</label>
-                <div class="input-group">
-                  <div class="input-group-text"><i class="fas fa-key"></i></div>
-                  <input type="password" class="form-control" id="password" placeholder="Password">
+                <div class="col-md-4">
+                    <label for="select-loan-purpose" class="form-label">Select Loan Purpose</label>
+                    <select id="select-loan-purpose" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
                 </div>
-              </div>
-              <div class="col-12">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="gridCheck">
-                  <label class="form-check-label" for="gridCheck">
-                    Remember Me
-                  </label>
+                <div class="col-md-4">
+                    <label for="select-loan-type" class="form-label">Select Loan Type</label>
+                    <select id="select-loan-type" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
                 </div>
-              </div>
-              <div class="col-12">
-                <button type="submit" class="btn btn-primary">Sign In</button>
-              </div>
-              <h5 class="text-center">New here?<a href="signUp.html">Create an account</a></h5>
-          </form>
+            </div>
+            <div class="row g-3">
+                <div class="btn-group col-md-6">
+                    <button type="submit" class="btn btn-primary">COMPARE RATE</button>
+                </div>
+                <div class="btn-group col-md-6">
+                    <button type="submit" class="btn btn-primary">CHECK ELIGIBILITY</button>
+                </div>
+            </div>
+        </form>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
-   
+
 </body>
+
 </html>
