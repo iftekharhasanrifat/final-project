@@ -11,7 +11,7 @@
     font-size:65px;
     
 }
-#dps,#fixed-dps{
+#dps,#fixed-dps,#monthly-benefit{
     float: left;
     margin-left:1em;
     width: 20%;
@@ -62,7 +62,7 @@
         margin:200px;
     }
      */
-     #dps,#fixed-dps{
+     #dps,#fixed-dps,#monthly-benefit{
         float: left;
         margin-left:1em;
         width: 20%;
@@ -82,7 +82,7 @@
     }
 }
 @media only screen and (max-width: 768px) {
-    #dps,#content,#fixed-dps {
+    #dps,#content,#fixed-dps,#monthly-benefit {
         width: 100%;
       }
   }
@@ -97,7 +97,7 @@
 } */
 
 @media (max-width: 600px) {
-    #dps,#content,#fixed-dps {
+    #dps,#content,#fixed-dps,#monthly-benefit {
         width: 100%;
       }
   }
