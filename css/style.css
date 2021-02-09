@@ -1,53 +1,63 @@
 /* .top-banner{
     background-color:whitesmoke;
 } */
-#sign-up a{
+
+#sign-up a {
     text-decoration: none;
 }
-#sign-in a{
+
+#sign-in a {
     text-decoration: none;
 }
-.fz-65{
-    font-size:65px;
-    
+
+.fz-65 {
+    font-size: 65px;
 }
-#dps,#fixed-dps,#monthly-benefit,#saving-account,#triple-money,#double-money{
+
+#dps,
+#fixed-dps,
+#monthly-benefit,
+#saving-account,
+#triple-money,
+#double-money {
     float: left;
-    margin-left:1em;
+    margin-left: 1em;
     width: 20%;
-    float:left;
+    float: left;
 }
-#content{
+
+#content {
     float: left;
     /* margin-left:1em; */
     width: 80%;
-    float:left;
+    float: left;
     padding: 10px;
 }
-.contents{
+
+.contents {
     border: 1px solid lightgray;
     padding: 1em;
     border-radius: 1em;
 }
-.dps-item td{
+
+.dps-item td {
     text-align: center;
     vertical-align: middle;
     border-right: 1px dashed lightgray;
-    
-}
-.dps-item td:nth-last-child(1){
-    border-right: none;
-    
 }
 
-@media (min-width: 768px) and (max-width: 991px){
+.dps-item td:nth-last-child(1) {
+    border-right: none;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
     .top-banner h1 {
         font-size: 36px!important;
         padding-bottom: 10px!important;
     }
-    
 }
-@media (min-width: 992px){
+
+@media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 3.5rem;
         padding-left: .5rem;
@@ -55,49 +65,75 @@
     /* #carouselExampleCaptions img{
         height: 300px;
     } */
-    #sign-in,#personal-loan,#home-loan{
+    #sign-in,
+    #personal-loan,
+    #home-loan {
         margin: 200px;
     }
     /* #personal-loan{
         margin:200px;
     }
      */
-     #dps,#fixed-dps,#monthly-benefit,#saving-account,#triple-money,#double-money{
+    #dps,
+    #fixed-dps,
+    #monthly-benefit,
+    #saving-account,
+    #triple-money,
+    #double-money {
         float: left;
-        margin-left:1em;
+        margin-left: 1em;
         width: 20%;
-        float:left;
+        float: left;
     }
-    #content{
+    #content {
         float: left;
         /* margin-left:1em; */
         width: 80%;
-        float:left;
+        float: left;
     }
-    #search-bar{
+    #search-bar {
         margin-left: 10em;
     }
-    #search-btn{
-        margin-left:10em;
+    #search-btn {
+        margin-left: 10em;
     }
 }
+
 @media only screen and (max-width: 768px) {
-    #dps,#content,#fixed-dps,#monthly-benefit,#saving-account,#triple-money,#double-money {
+    #dps,
+    #content,
+    #fixed-dps,
+    #monthly-benefit,
+    #saving-account,
+    #triple-money,
+    #double-money {
         width: 100%;
-      }
-  }
+    }
+}
+
 .logo-card {
-    border:none;
+    border: none;
     border-radius: 1em;
     box-shadow: 10px 10px 30px lightgray;
 }
+
+
 /* .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 2.5rem;
     padding-left: .5rem;
 } */
 
 @media (max-width: 600px) {
-    #dps,#content,#fixed-dps,#monthly-benefit,#saving-account,#triple-money,#double-money {
+    #dps,
+    #content,
+    #fixed-dps,
+    #monthly-benefit,
+    #saving-account,
+    #triple-money,
+    #double-money {
         width: 100%;
-      }
-  }
+    }
+    #content {
+        padding-left: 25px;
+    }
+}
