@@ -164,7 +164,7 @@
 }
 
 #check:checked~.chat-btn .comment {
-    display: none
+    display: none;
 }
 
 .chat-btn i {
@@ -187,6 +187,7 @@
 
 .wrapper {
     position: fixed;
+    z-index: -1;
     right: 20px;
     bottom: 100px;
     width: 500px;
@@ -196,8 +197,12 @@
     transition: all 0.4s
 }
 
+.wrapper.open {
+    z-index: 2;
+}
+
 #check:checked~.wrapper {
-    opacity: 1
+    opacity: 1;
 }
 
 .header {
