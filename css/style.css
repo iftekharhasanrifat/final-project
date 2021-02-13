@@ -19,7 +19,8 @@
 #monthly-benefit,
 #saving-account,
 #triple-money,
-#double-money {
+#double-money,
+#choose-tenure {
     float: left;
     margin-left: 1em;
     width: 20%;
@@ -79,7 +80,8 @@
     #monthly-benefit,
     #saving-account,
     #triple-money,
-    #double-money {
+    #double-money,
+    #choose-tenure {
         float: left;
         margin-left: 1em;
         width: 20%;
@@ -106,7 +108,8 @@
     #monthly-benefit,
     #saving-account,
     #triple-money,
-    #double-money {
+    #double-money,
+    #choose-tenure {
         width: 100%;
     }
     .wrapper {
@@ -134,7 +137,8 @@
     #monthly-benefit,
     #saving-account,
     #triple-money,
-    #double-money {
+    #double-money,
+    #choose-tenure {
         width: 100%;
     }
     #content {

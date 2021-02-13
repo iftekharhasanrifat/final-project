@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fixed Deposit</title>
+    <title>Choose Tenure</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <section class=" mb-5">
+    <section class="mb-5">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Loan Consultancy System</a>
@@ -57,24 +57,17 @@
 
     <section>
 
-        <form id="fixed-dps" class="row g-3">
+        <form id="choose-tenure" class="row g-3">
             <div class="mt-5 row g-3">
                 <div class="col-md-12">
-                    <label for="account-type" class="form-label">Account Type</label>
-                    <select id="account-type" class="form-select">
-                        <option selected>Choose...</option>
-                        <option>...</option>
-                    </select>
-                </div>
-                <div class="col-md-12">
-                    <label for="fixed-deposit-amount" class="form-label">Fixed Deposit Amount</label>
-                    <input type="range" class="form-range" id="fixed-deposit-amount">
+                    <label for="deposit-amount" class="form-label">Deposit Amount</label>
+                    <input type="range" class="form-range" id="deposit-amount">
                     <input class="form-control" type="text" name="" id="" placeholder="Deposit Amount">
                 </div>
                 <div class="col-md-12">
-                    <label for="institution-type" class="form-label">Institution Type</label>
-                    <select id="institution-type" class="form-select">
-                        <option selected>Institution Type</option>
+                    <label for="deposit-duration" class="form-label">Deposit Duration</label>
+                    <select id="deposit-duration" class="form-select">
+                        <option selected>Choose...</option>
                         <option>...</option>
                     </select>
                 </div>
@@ -90,10 +83,10 @@
     <section id="content" class="row g-3">
         <div class="col-md-12 g-3">
             <div class="row contents">
-                <div class="col-md-6">
-                    <h4>We've found "40" Fixed Deposit Scheme 10.00K (BDT)</h4>
+                <div class="col-md-12">
+                    <h4>Know which Tenure will give you best Maturity Amount for deposit <span>105,570</span> BDT</h4>
                 </div>
-                <div class="col-md-6">
+                <!-- <div class="col-md-6">
                     <div class="input-group mb-3">
                         <select id="search" class="form-select">
                             <option selected>Top Rating</option>
@@ -103,11 +96,11 @@
                             <button class="btn btn-outline-secondary" type="button">Search</button>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="row mt-3 ">
                 <div class="card">
-                    <h5 class="card-title">credit rating</h5>
+                    <!-- <h5 class="card-title">credit rating</h5> -->
                     <div class="card-body table-responsive">
                         <table class="dps-item table table-borderless">
                             <tr>
@@ -115,36 +108,23 @@
                                     <img width="100px" src="logo/reliability.png" alt="">
                                 </td>
                                 <td>
-                                    <p>1 MONTH</p>
-                                    <p>-</p>
+                                    <p>TENURE</p>
+                                    <p>8%</p>
                                 </td>
                                 <td>
-                                    <p>3 MONTHS</p>
-                                    <p>5%</p>
+                                    <p>INTEREST RATE</p>
+                                    <p>500 BDT</p>
                                 </td>
                                 <td>
-                                    <p>6 MONTHS</p>
-                                    <p>5.5%</p>
-                                </td>
-                                <td>
-                                    <p>9 MONTHS</p>
-                                    <p>-</p>
-                                </td>
-                                <td>
-                                    <p>1 YEAR</p>
-                                    <p>5.8%</p>
-                                </td>
-                                <td>
-                                    <p>2 YEARS</p>
-                                    <p>6.3%</p>
-                                </td>
-                                <td>
+                                    <p>DEPOSIT AMOUNT</p>
                                     <p>3 YEARS</p>
-                                    <p>7%</p>
                                 </td>
                                 <td>
-                                    <button class="btn btn-primary" onclick="document.location='chooseTenure.html'">Choose Tenure</button>
-                                    <button class="btn btn-primary">Apply Now</button>
+                                    <p>MATURE AMOUNT</p>
+                                    <p>20,312 BDT</p>
+                                </td>
+                                <td>
+                                    <button class="btn btn-primary">Show More</button>
                                 </td>
                             </tr>
                         </table>
@@ -153,7 +133,7 @@
             </div>
             <div class="row mt-3 ">
                 <div class="card">
-                    <h5 class="card-title">credit rating</h5>
+                    <!-- <h5 class="card-title">credit rating</h5> -->
                     <div class="card-body table-responsive">
                         <table class="dps-item table table-borderless">
                             <tr>
@@ -161,36 +141,23 @@
                                     <img width="100px" src="logo/reliability.png" alt="">
                                 </td>
                                 <td>
-                                    <p>1 MONTH</p>
-                                    <p>-</p>
+                                    <p>TENURE</p>
+                                    <p>8%</p>
                                 </td>
                                 <td>
-                                    <p>3 MONTHS</p>
-                                    <p>5%</p>
+                                    <p>INTEREST RATE</p>
+                                    <p>500 BDT</p>
                                 </td>
                                 <td>
-                                    <p>6 MONTHS</p>
-                                    <p>5.5%</p>
-                                </td>
-                                <td>
-                                    <p>9 MONTHS</p>
-                                    <p>-</p>
-                                </td>
-                                <td>
-                                    <p>1 YEAR</p>
-                                    <p>5.8%</p>
-                                </td>
-                                <td>
-                                    <p>2 YEARS</p>
-                                    <p>6.3%</p>
-                                </td>
-                                <td>
+                                    <p>DEPOSIT AMOUNT</p>
                                     <p>3 YEARS</p>
-                                    <p>7%</p>
                                 </td>
                                 <td>
-                                    <button class="btn btn-primary" onclick="document.location='chooseTenure.html'">Choose Tenure</button>
-                                    <button class="btn btn-primary">Apply Now</button>
+                                    <p>MATURE AMOUNT</p>
+                                    <p>20,312 BDT</p>
+                                </td>
+                                <td>
+                                    <button class="btn btn-primary">Show More</button>
                                 </td>
                             </tr>
                         </table>
@@ -199,7 +166,7 @@
             </div>
             <div class="row mt-3 ">
                 <div class="card">
-                    <h5 class="card-title">credit rating</h5>
+                    <!-- <h5 class="card-title">credit rating</h5> -->
                     <div class="card-body table-responsive">
                         <table class="dps-item table table-borderless">
                             <tr>
@@ -207,36 +174,23 @@
                                     <img width="100px" src="logo/reliability.png" alt="">
                                 </td>
                                 <td>
-                                    <p>1 MONTH</p>
-                                    <p>-</p>
+                                    <p>TENURE</p>
+                                    <p>8%</p>
                                 </td>
                                 <td>
-                                    <p>3 MONTHS</p>
-                                    <p>5%</p>
+                                    <p>INTEREST RATE</p>
+                                    <p>500 BDT</p>
                                 </td>
                                 <td>
-                                    <p>6 MONTHS</p>
-                                    <p>5.5%</p>
-                                </td>
-                                <td>
-                                    <p>9 MONTHS</p>
-                                    <p>-</p>
-                                </td>
-                                <td>
-                                    <p>1 YEAR</p>
-                                    <p>5.8%</p>
-                                </td>
-                                <td>
-                                    <p>2 YEARS</p>
-                                    <p>6.3%</p>
-                                </td>
-                                <td>
+                                    <p>DEPOSIT AMOUNT</p>
                                     <p>3 YEARS</p>
-                                    <p>7%</p>
                                 </td>
                                 <td>
-                                    <button class="btn btn-primary" onclick="document.location='chooseTenure.html'">Choose Tenure</button>
-                                    <button class="btn btn-primary">Apply Now</button>
+                                    <p>MATURE AMOUNT</p>
+                                    <p>20,312 BDT</p>
+                                </td>
+                                <td>
+                                    <button class="btn btn-primary">Show More</button>
                                 </td>
                             </tr>
                         </table>
@@ -245,7 +199,7 @@
             </div>
             <div class="row mt-3 ">
                 <div class="card">
-                    <h5 class="card-title">credit rating</h5>
+                    <!-- <h5 class="card-title">credit rating</h5> -->
                     <div class="card-body table-responsive">
                         <table class="dps-item table table-borderless">
                             <tr>
@@ -253,36 +207,23 @@
                                     <img width="100px" src="logo/reliability.png" alt="">
                                 </td>
                                 <td>
-                                    <p>1 MONTH</p>
-                                    <p>-</p>
+                                    <p>TENURE</p>
+                                    <p>8%</p>
                                 </td>
                                 <td>
-                                    <p>3 MONTHS</p>
-                                    <p>5%</p>
+                                    <p>INTEREST RATE</p>
+                                    <p>500 BDT</p>
                                 </td>
                                 <td>
-                                    <p>6 MONTHS</p>
-                                    <p>5.5%</p>
-                                </td>
-                                <td>
-                                    <p>9 MONTHS</p>
-                                    <p>-</p>
-                                </td>
-                                <td>
-                                    <p>1 YEAR</p>
-                                    <p>5.8%</p>
-                                </td>
-                                <td>
-                                    <p>2 YEARS</p>
-                                    <p>6.3%</p>
-                                </td>
-                                <td>
+                                    <p>DEPOSIT AMOUNT</p>
                                     <p>3 YEARS</p>
-                                    <p>7%</p>
                                 </td>
                                 <td>
-                                    <button class="btn btn-primary" onclick="document.location='chooseTenure.html'">Choose Tenure</button>
-                                    <button class="btn btn-primary">Apply Now</button>
+                                    <p>MATURE AMOUNT</p>
+                                    <p>20,312 BDT</p>
+                                </td>
+                                <td>
+                                    <button class="btn btn-primary">Show More</button>
                                 </td>
                             </tr>
                         </table>
@@ -291,7 +232,7 @@
             </div>
             <div class="row mt-3 ">
                 <div class="card">
-                    <h5 class="card-title">credit rating</h5>
+                    <!-- <h5 class="card-title">credit rating</h5> -->
                     <div class="card-body table-responsive">
                         <table class="dps-item table table-borderless">
                             <tr>
@@ -299,36 +240,23 @@
                                     <img width="100px" src="logo/reliability.png" alt="">
                                 </td>
                                 <td>
-                                    <p>1 MONTH</p>
-                                    <p>-</p>
+                                    <p>TENURE</p>
+                                    <p>8%</p>
                                 </td>
                                 <td>
-                                    <p>3 MONTHS</p>
-                                    <p>5%</p>
+                                    <p>INTEREST RATE</p>
+                                    <p>500 BDT</p>
                                 </td>
                                 <td>
-                                    <p>6 MONTHS</p>
-                                    <p>5.5%</p>
-                                </td>
-                                <td>
-                                    <p>9 MONTHS</p>
-                                    <p>-</p>
-                                </td>
-                                <td>
-                                    <p>1 YEAR</p>
-                                    <p>5.8%</p>
-                                </td>
-                                <td>
-                                    <p>2 YEARS</p>
-                                    <p>6.3%</p>
-                                </td>
-                                <td>
+                                    <p>DEPOSIT AMOUNT</p>
                                     <p>3 YEARS</p>
-                                    <p>7%</p>
                                 </td>
                                 <td>
-                                    <button class="btn btn-primary" onclick="document.location='chooseTenure.html'">Choose Tenure</button>
-                                    <button class="btn btn-primary">Apply Now</button>
+                                    <p>MATURE AMOUNT</p>
+                                    <p>20,312 BDT</p>
+                                </td>
+                                <td>
+                                    <button class="btn btn-primary">Show More</button>
                                 </td>
                             </tr>
                         </table>
@@ -405,9 +333,10 @@
             </div>
         </div>
     </section>
+
+
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="js/main.js"></script>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 
