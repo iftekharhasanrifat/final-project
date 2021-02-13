@@ -144,7 +144,7 @@
                                 </td>
                                 <td>
                                     <button class="btn btn-primary" onclick="document.location='chooseTenure.html'">Choose Tenure</button>
-                                    <button class="btn btn-primary">Apply Now</button>
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Apply Now</button>
                                 </td>
                             </tr>
                         </table>
@@ -190,7 +190,7 @@
                                 </td>
                                 <td>
                                     <button class="btn btn-primary" onclick="document.location='chooseTenure.html'">Choose Tenure</button>
-                                    <button class="btn btn-primary">Apply Now</button>
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Apply Now</button>
                                 </td>
                             </tr>
                         </table>
@@ -236,7 +236,7 @@
                                 </td>
                                 <td>
                                     <button class="btn btn-primary" onclick="document.location='chooseTenure.html'">Choose Tenure</button>
-                                    <button class="btn btn-primary">Apply Now</button>
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Apply Now</button>
                                 </td>
                             </tr>
                         </table>
@@ -282,7 +282,7 @@
                                 </td>
                                 <td>
                                     <button class="btn btn-primary" onclick="document.location='chooseTenure.html'">Choose Tenure</button>
-                                    <button class="btn btn-primary">Apply Now</button>
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Apply Now</button>
                                 </td>
                             </tr>
                         </table>
@@ -328,7 +328,7 @@
                                 </td>
                                 <td>
                                     <button class="btn btn-primary" onclick="document.location='chooseTenure.html'">Choose Tenure</button>
-                                    <button class="btn btn-primary">Apply Now</button>
+                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Apply Now</button>
                                 </td>
                             </tr>
                         </table>
@@ -402,6 +402,66 @@
                     </div>
                 </div>
 
+            </div>
+        </div>
+    </section>
+    <section>
+        <!-- Button trigger modal -->
+        <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Launch static backdrop modal
+  </button> -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div>
+                            <img src="logo/reliability.png" width="100px" alt="">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <h5 class="modal-title " id="staticBackdropLabel">Apply for <span>United Commercial Bank</span></h5>
+                        </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="apply-now" class="row g-3">
+                            <div class="col-md-12">
+                                <label for="name" class="form-label">Name</label>
+                                <div class="input-group">
+                                    <div class="input-group-text"><i class="fas fa-user"></i></div>
+                                    <input type="text" class="form-control" id="name" placeholder="Name">
+                                </div>
+                                <!-- <input type="email" class="form-control" id="inputEmail4"> -->
+                            </div>
+                            <div class="col-md-12">
+                                <label for="phone-no" class="form-label">Phone No.</label>
+                                <div class="input-group">
+                                    <div class="input-group-text"><i class="fas fa-phone"></i></div>
+                                    <input type="text" class="form-control" id="phone-no" placeholder="Phone No.">
+                                </div>
+                                <!-- <input type="password" class="form-control" id="inputPassword4"> -->
+                            </div>
+                            <div class="col-md-12">
+                                <label for="select-profession" class="form-label">Select Profession</label>
+                                <select id="select-profession" class="form-select">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                              </select>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="select-location" class="form-label">Select Location</label>
+                                <select id="select-location" class="form-select">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                              </select>
+                            </div>
+                            <div class=" text-center col-12">
+                                <button type="submit" class="btn btn-primary">Apply Now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
